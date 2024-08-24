@@ -1,0 +1,165 @@
+body {
+    background-color: #1C1C1C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.navigation {
+    width: 97%;
+    height: 100px;
+    display: flex;
+}
+.nav {
+    font-family: 'League Gothic';
+    font-size: 38px;
+    display: flex;
+    flex-direction: column;
+}
+.nav a {
+    margin: 0%;
+    color: #ffffff;
+}
+.nav a:hover {
+    margin: 0%;
+    color: #000000;
+}
+.logo {
+    font-family: 'Alex Brush';font-size: 80px;
+    color: #FFFFFF;
+    margin: 5px 0px 0px 31%;
+}
+
+.paintings_grid {
+    margin-top: 40px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left_grid {
+    width: 47%;
+    height: 100%;
+}
+
+.left_one {
+    content: url('./images/Photography/20240218_180259.jpg');
+    width: 100%;
+}
+
+.left_two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.left_two_a {
+    content: url('./images/Photography/20240722_095903.jpg');
+    height: 300px;
+    /* width: 100%; */
+}
+
+.left_two_b {
+    content: url('./images/Photography/20240228_175830\ \(1\).jpg');
+    height: 300px;
+    /* width: 100%; */
+}
+
+.left_three {
+    content: url('./images/Photography/20240520_215236.jpg');
+    width: 100%;
+    margin-top: 40px;
+}
+
+.left_four {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.left_four_a {
+    content: url('./images/Photography/20240426_212547.jpg');
+    height: 225px;
+}
+
+.left_four_b {
+    content: url('./images/Photography/IMG_20210303_180408.jpg');
+    height: 225px;
+}
+
+.left_four_c {
+    content: url('./images/Photography/10776974402644279457.jpg');
+    height: 225px;
+}
+
+.left_five {
+    content: url('./images/Photography/IMG_20200620_193528.jpg');
+    width: 100%;
+    margin-top: 40px;
+}
+
+.left_six {
+    content: url('./images/Photography/20231223_134334.jpg');
+    width: 100%;
+    margin-top: 40px;
+}
+
+.right_grid {
+    width: 47%;
+    height: 100%;
+}
+
+.right_one {
+    content: url('./images/Photography/Untitled-2.png');
+    width: 100%;
+}
+
+.right_two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.right_two_a {
+    content: url('./images/Photography/20240721_094946.jpg');
+    height: 300px;
+}
+
+.right_two_b {
+    content: url('./images/Photography/20240721_092459.jpg');
+    height: 300px;
+}
+
+.right_three {
+    content: url('./images/Photography/IMG_20210902_132619.jpg');
+    width: 100%;
+    margin-top: 40px;
+}
+
+.right_four {
+    content: url('./images/Photography/20211225_115426.jpg');
+    width: 100%;
+    margin-top: 40px;
+}
+
+.right_five {
+    content: url('./images/Photography/20240809_203217\ \(1\).jpg');
+    width: 100%;
+    margin-top: 40px;
+}
+
+.right_six {
+    content: url('./images/Photography/IMG_20190630_130036.jpg');
+    width: 100%;
+    margin-top: 40px;
+}
+
+.footer {
+    color: #FFFFFF;
+    margin-top: 50px;
+}
