@@ -1,0 +1,121 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .background {
+    background-image: url('./images/homepage_background_16_9_blured.png');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .center-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+  }
+
+h1 {
+    font-family: 'Alex Brush';font-size: 80px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'League Gothic';
+    font-size: 60px;
+    color: #3B3B3B;
+}
+
+button {
+    border: none;
+    border-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+  .para {
+    margin: 0%;
+  }
+
+  .name {
+    margin: 2%;
+  }
+
+  .welcome {
+    margin: 0%;
+  }
+
+  .socialmedia {
+    display: flex;
+    margin-top: 10%;
+  }
+
+  .insta {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    content: url("./images/instagram-svgrepo-com.svg");
+  }
+
+  .insta:hover {
+    content: url('./images/instagram-svgrepo-com_black.svg');
+  }
+
+  .linkedIn {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    content: url("./images/linkedin-161-svgrepo-com.svg");
+  }
+
+  .linkedIn:hover {
+    content: url('./images/linkedin-161-svgrepo-com_black.svg');
+  }
+
+  .buttons {
+    display: flex;
+    margin-top: 7%;
+  }
+
+  .buttons p {
+    font-size: 35px;
+    color: black;
+    margin: 0%;
+  }
+
+  .buttons p:hover {
+    font-size: 30px;
+    color: white;
+    margin: 0%;
+  }
+
+  .work-button {
+    background-color: white;
+    width: 120px;
+    height: 50px;
+    margin-right: 40px;
+  }
+
+  .work-button:hover {
+    background-color: #3B3B3B;
+  }
+
+  .contact-button {
+    background-color: white;
+    width: 120px;
+    height: 50px;
+    margin-left: 40px;
+  }
+
+  .contact-button:hover {
+    background-color: #3B3B3B;
+  }
