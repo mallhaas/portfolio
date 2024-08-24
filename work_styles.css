@@ -78,11 +78,11 @@ a {
 }
 
 .graphic_design {
-    content: url('./images/graphic\ design/graphic_design.png');
+    content: url('./images/graphic_design.png');
 }
 
 .graphic_design:hover {
-    content: url('./images/graphic\ design/graphic_design_back.png');
+    content: url('./images/graphic_design_back.png');
     transform: scale(1.04);
 }
 
