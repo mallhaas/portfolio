@@ -48,7 +48,7 @@ a {
 .mountain {
     width: 500px;
     height: 500px;
-    content: url('./images2/mountain_frame.png'); 
+    content: url('./painting_img/mountain_frame.png'); 
 }
 
 .japan {
@@ -57,13 +57,13 @@ a {
     margin-right: 50px;
     margin-left: 150px;
     margin-top: 40px;
-    content: url('./images2/frame\ for\ japanese.png'); 
+    content: url('./painting_img/frame\ for\ japanese.png'); 
 }
 
 .swimmer {
     width: 500px;
     height: 500px;
-    content: url('./images2/frame\ for\ swim.png');
+    content: url('./painting_img/frame\ for\ swim.png');
 }
 
 
@@ -78,12 +78,12 @@ a {
 .storm {
     width: 850px;
     height: 850px;
-    content: url('./images2/frame\ for\ sea.png');
+    content: url('./painting_img/frame\ for\ sea.png');
 }
 
 .paintings_theme {
     height: 840px;
-    content: url('./images2/Untitled-1.png');
+    content: url('./painting_img/Untitled-1.png');
 }
 
 .footer {
