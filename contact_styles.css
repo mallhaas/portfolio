@@ -4,7 +4,7 @@ body, html {
   }
   
 .background {
-    background-image: url('./images/homepage_background_16_9_blured.png');
+    background-image: url('./contact_img/homepage_background_16_9_blured.png');
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
