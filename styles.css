@@ -4,7 +4,7 @@ body, html {
   }
   
   .background {
-    background-image: url('./images/homepage_background_16_9_blured.png');
+    background-image: url('./index_img/homepage_background_16_9_blured.png');
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -63,22 +63,22 @@ a {
     width: 25px;
     height: 25px;
     margin-right: 20px;
-    content: url("./images/instagram-svgrepo-com.svg");
+    content: url("./index_img/instagram-svgrepo-com.svg");
   }
 
   .insta:hover {
-    content: url('./images/instagram-svgrepo-com_black.svg');
+    content: url('./index_img/instagram-svgrepo-com_black.svg');
   }
 
   .linkedIn {
     width: 25px;
     height: 25px;
     margin-left: 20px;
-    content: url("./images/linkedin-161-svgrepo-com.svg");
+    content: url("./index_img/linkedin-161-svgrepo-com.svg");
   }
 
   .linkedIn:hover {
-    content: url('./images/linkedin-161-svgrepo-com_black.svg');
+    content: url('./index_img/linkedin-161-svgrepo-com_black.svg');
   }
 
   .buttons {

@@ -47,7 +47,7 @@ a {
 
 .duck-image {
 height: 400px;
-content: url('./images2/twitterbanner.png');
+content: url('./smthi_img/twitterbanner.png');
 margin-right: 100px;
 }
 
@@ -63,7 +63,7 @@ margin-right: 100px;
 .teapots {
     height: 100px;
     width: 100px;
-    content: url('./images2/teapot.png');
+    content: url('./smthi_img/teapot.png');
     margin-left: -45px;
 }
 
@@ -72,12 +72,12 @@ margin-right: 100px;
 }
 
 .san_diego_project {
-    content: url(images2/san\ diago\ button.png);
+    content: url(smthi_img/san\ diago\ button.png);
     width: 100%;
     margin-bottom: 60px;
 }
 .san_diego_project:hover {
-    content: url(images2/san\ diago\ button\ black.png);
+    content: url(smthi_img/san\ diago\ button\ black.png);
 }
 
 .footer {
