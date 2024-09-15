@@ -40,21 +40,21 @@ a {
 }
 
 .san_diego_project {
-    content: url(images2/san\ diago\ button.png);
+    content: url(graphic_img/san\ diago\ button.png);
     width: 100%;
     margin-bottom: 60px;
 }
 
 .san_diego_project:hover {
-    content: url(images2/san\ diago\ button\ black.png);
+    content: url(graphic_img/san\ diago\ button\ black.png);
 }
 
 .summer {
-    content: url(images2/Untitled-1-Graphic\ designFIN.png);
+    content: url(graphic_img/Untitled-1-Graphic\ designFIN.png);
 }
 
 .graphicdesign_theme {
-    content: url(images2/graohic\ design\ theme.png);
+    content: url(graphic_img/graohic\ design\ theme.png);
 }
 
 .graphicdesign_lower {
