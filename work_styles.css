@@ -56,29 +56,29 @@ a {
 }
 
 .photography {
-    content: url('./images2/PHOTOGRAPHY.png');
+    content: url('./work\ images/PHOTOGRAPHY.png');
 }
 
 .photography:hover {
-    content: url('./images2/PHOTOGRAPHY_HOVER.png');
+    content: url('./work\ images/PHOTOGRAPHY_HOVER.png');
     transform: scale(1.04);
 }
 
 .paintings {
-    content: url('./images2/PAINTINGS.png');
+    content: url('./work\ images/PAINTINGS.png');
 }
 
 .paintings:hover {
-    content: url('./images2/PAINTINGS_HOVER.png');
+    content: url('./work\ images/PAINTINGS_HOVER.png');
     transform: scale(1.04);
 }
 
 .graphic_design {
-    content: url('./images2/graphic_design.png');
+    content: url('./work\ images/graphic_design.png');
 }
 
 .graphic_design:hover {
-    content: url('./images2/graphic_design_back.png');
+    content: url('./work\ images/graphic_design_back.png');
     transform: scale(1.04);
 }
 
@@ -86,11 +86,11 @@ a {
     width: 100%;
     height: 150px;
     margin-top: 35px;
-    content: url('./images2/something_interesting.png');
+    content: url('./work\ images/something_interesting.png');
 }
 
 .smth_interesting:hover {
-    content: url('./images2/something_interesting_hover.png');
+    content: url('./work\ images/something_interesting_hover.png');
     transform: scale(1.04);
 }
 
