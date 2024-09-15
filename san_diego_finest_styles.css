@@ -58,13 +58,13 @@ a {
 .san_diego_finest_grid_first_a {
     height: 600px;
     width: 600px;
-    content: url('./images2/san\ diago\ finest/1a.png');
+    content: url('./sandiego_img/1a.png');
 }
 
 .san_diego_finest_grid_first_b {
     height: 600px;
     width: 450px;
-    content: url('./images2/san\ diago\ finest/1b.jpg');
+    content: url('./sandiego_img/1b.jpg');
 }
 
 .san_diego_finest_grid_second {
@@ -76,12 +76,12 @@ a {
 
 .san_diego_finest_grid_second_a {
     height: 300px;
-    content: url('./images2/san\ diago\ finest/2a.png');
+    content: url('./sandiego_img/2a.png');
 }
 
 .san_diego_finest_grid_second_b {
     height: 300px;
-    content: url('./images2/san\ diago\ finest/2b.png');
+    content: url('./sandiego_img/2b.png');
 }
 
 .san_diego_finest_grid_third {
@@ -93,13 +93,13 @@ a {
 .san_diego_finest_grid_third_a {
     height: 600px;
     width: 450px;
-    content: url('./images2/san\ diago\ finest/3a.png');
+    content: url('./sandiego_img/3a.png');
 }
 
 .san_diego_finest_grid_third_b {
     height: 600px;
     width: 600px;
-    content: url('./images2/san\ diago\ finest/3b.png');
+    content: url('./sandiego_img/3b.png');
 }
 
 .footer {
