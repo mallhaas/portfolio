@@ -1,0 +1,107 @@
+body {
+    background-color: #1C1C1C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.navigation {
+    width: 97%;
+    height: 100px;
+    display: flex;
+}
+.nav {
+    font-family: 'League Gothic';
+    font-size: 38px;
+    display: flex;
+    flex-direction: column;
+}
+.nav a {
+    margin: 0%;
+    color: #ffffff;
+}
+.nav a:hover {
+    margin: 0%;
+    color: #000000;
+}
+.logo {
+    font-family: 'Alex Brush';font-size: 80px;
+    color: #FFFFFF;
+    margin: 5px 0px 0px 31%;
+}
+
+.san_diago_text {
+    width: 41%;
+    color: #FFFFFF;
+    font-family: 'League Gothic';
+    text-align: center;
+    font-size: 30px;
+}
+
+.san_diego_finest_grid {
+    width: 75%;
+    height: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.san_diego_finest_grid_first {
+    height: 600px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.san_diego_finest_grid_first_a {
+    height: 600px;
+    width: 600px;
+    content: url('./images2/san\ diago\ finest/1a.png');
+}
+
+.san_diego_finest_grid_first_b {
+    height: 600px;
+    width: 450px;
+    content: url('./images2/san\ diago\ finest/1b.jpg');
+}
+
+.san_diego_finest_grid_second {
+    height: 300px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.san_diego_finest_grid_second_a {
+    height: 300px;
+    content: url('./images2/san\ diago\ finest/2a.png');
+}
+
+.san_diego_finest_grid_second_b {
+    height: 300px;
+    content: url('./images2/san\ diago\ finest/2b.png');
+}
+
+.san_diego_finest_grid_third {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.san_diego_finest_grid_third_a {
+    height: 600px;
+    width: 450px;
+    content: url('./images2/san\ diago\ finest/3a.png');
+}
+
+.san_diego_finest_grid_third_b {
+    height: 600px;
+    width: 600px;
+    content: url('./images2/san\ diago\ finest/3b.png');
+}
+
+.footer {
+    color: #FFFFFF;
+}

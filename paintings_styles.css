@@ -34,54 +34,56 @@ a {
 }
 
 .paintings_grid {
-    width: 63%;
+    width: 95%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .up_grid {
     width: 100%;
-    height: 50%;
+    height: 35%;
     display: flex;
-    justify-content: space-between;
 }
 
-.storm {
-    width: 300px;
-    height: 300px;
-    margin: 10px 120px;
-    content: url('./images/frame\ for\ sea.png');
+.mountain {
+    width: 500px;
+    height: 500px;
+    content: url('./images2/mountain_frame.png'); 
+}
+
+.japan {
+    width: 230px;
+    height: 230px;
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: 40px;
+    content: url('./images2/frame\ for\ japanese.png'); 
 }
 
 .swimmer {
-    width: 380px;
-    height: 380px;
-    content: url('./images/frame\ for\ swim.png');
-    margin-right: 100px;
+    width: 500px;
+    height: 500px;
+    content: url('./images2/frame\ for\ swim.png');
 }
 
 
 .low_grid {
     width: 100%;
-    height: 50%;
+    height: 65%;
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 }
 
-.mountain {
-    width: 460px;
-    height: 460px;
-    content: url('./images/mountain_frame.png');
-    margin-left: 40px;
+.storm {
+    width: 850px;
+    height: 850px;
+    content: url('./images2/frame\ for\ sea.png');
 }
 
-.japan {
-    width: 290px;
-    height: 290px;
-    margin: 60px 130px;
-    content: url('./images/frame\ for\ japanese.png');
+.paintings_theme {
+    height: 840px;
+    content: url('./images2/Untitled-1.png');
 }
 
 .footer {

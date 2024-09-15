@@ -1,0 +1,85 @@
+body {
+    background-color: #1C1C1C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.navigation {
+    width: 97%;
+    height: 100px;
+    display: flex;
+}
+.nav {
+    font-family: 'League Gothic';
+    font-size: 38px;
+    display: flex;
+    flex-direction: column;
+}
+.nav a {
+    margin: 0%;
+    color: #ffffff;
+}
+.nav a:hover {
+    margin: 0%;
+    color: #000000;
+}
+.logo {
+    font-family: 'Alex Brush';font-size: 80px;
+    color: #FFFFFF;
+    margin: 5px 0px 0px 31%;
+}
+
+.smthi_grid {
+    margin-top: 60px;
+
+}
+
+.smthi_upper {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.duck-image {
+height: 400px;
+content: url('./images2/twitterbanner.png');
+margin-right: 100px;
+}
+
+.duck-text {
+    height: 360px;
+    width: 275px;
+    font-family: 'League Gothic';
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.teapots {
+    height: 100px;
+    width: 100px;
+    content: url('./images2/teapot.png');
+    margin-left: -45px;
+}
+
+.smthi_lower {
+    margin-top: 50px;
+}
+
+.san_diego_project {
+    content: url(images2/san\ diago\ button.png);
+    width: 100%;
+    margin-bottom: 60px;
+}
+.san_diego_project:hover {
+    content: url(images2/san\ diago\ button\ black.png);
+}
+
+.footer {
+    color: #FFFFFF;
+}
