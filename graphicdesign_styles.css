@@ -49,6 +49,11 @@ a {
     content: url(graphic_img/san\ diago\ button\ black.png);
 }
 
+.graphicdesign_lower {
+    display: flex;
+    justify-content: space-between;
+}
+
 .summer {
     content: url(graphic_img/Untitled-1-Graphic\ designFIN.png);
 }
@@ -57,7 +62,38 @@ a {
     content: url(graphic_img/graohic\ design\ theme.png);
 }
 
-.graphicdesign_lower {
-    display: flex;
-    justify-content: space-between;
+@media only screen and (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+
+    .logo {
+        font-size: 50px;
+        margin: 0%;
+        margin-top: 20px;
+    }
+
+    .navigation {
+        justify-content: center;
+    }
+
+    .graphicdesign_grid {
+        margin-top: 0px;
+    }
+
+    .san_diego_project {
+        margin-bottom: 20px;
+    }
+
+    .summer {   
+        height: 220px;
+    }
+    
+    .graphicdesign_theme {
+        height: 220px;
+    }
+
+    .footer {
+        display: none;
+    }
 }
