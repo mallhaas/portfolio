@@ -9,7 +9,7 @@ a {
     color: white;
 }
 .navigation {
-    width: 97%;
+    width: 760px;
     height: 100px;
     display: flex;
 }
@@ -18,6 +18,7 @@ a {
     font-size: 38px;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 .nav a {
     margin: 0%;
@@ -28,13 +29,17 @@ a {
     color: #000000;
 }
 .logo {
-    font-family: 'Alex Brush';font-size: 80px;
+    font-family: 'Alex Brush';
+    font-size: 60px;
     color: #FFFFFF;
-    margin: 5px 0px 0px 31%;
+    margin-left: 150px;
+    margin-top: 15px;
 }
 
+
 .smthi_grid {
-    margin-top: 60px;
+    width: 760px;
+    
 }
 
 .smthi_upper {
@@ -45,16 +50,15 @@ a {
 }
 
 .duck-image {
-height: 400px;
+height: 320px;
 content: url('./smthi_img/twitterbanner.png');
-margin-right: 100px;
+margin-right: 40px;
 }
 
 .duck-text {
-    height: 360px;
-    width: 275px;
+    height: 320px;
     font-family: 'League Gothic';
-    font-size: 25px;
+    font-size: 20px;
     color: #ffffff;
     text-align: center;
 }
@@ -63,7 +67,6 @@ margin-right: 100px;
     height: 100px;
     width: 100px;
     content: url('./smthi_img/teapot.png');
-    margin-left: -45px;
 }
 
 .smthi_lower {
@@ -83,28 +86,29 @@ margin-right: 100px;
     color: #FFFFFF;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 860px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
     .nav {
-        display: none;
+        font-size: 30px;
     }
 
     .logo {
         font-size: 50px;
         margin: 0%;
-        margin-top: 20px;
+        margin-left: 70px;
     }
 
     .navigation {
-        justify-content: center;
-    }
-
-    .footer {
-        display: none;
+        width: 500px;
     }
 
     .smthi_grid {
-        margin-top: 0px;
-        width: 97%;
+        margin-top: 0%;
+        width: 500px;
     }
 
     .smthi_upper {
@@ -128,7 +132,6 @@ margin-right: 100px;
     .teapots {
         height: 90px;
         width: 90px;
-        margin-top: -40px;
     }
 
     .smthi_lower {
