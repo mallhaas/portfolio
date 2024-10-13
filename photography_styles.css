@@ -9,7 +9,7 @@ a {
     color: white;
 }
 .navigation {
-    width: 97%;
+    width: 760px;
     height: 100px;
     display: flex;
 }
@@ -18,6 +18,7 @@ a {
     font-size: 38px;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 .nav a {
     margin: 0%;
@@ -28,14 +29,16 @@ a {
     color: #000000;
 }
 .logo {
-    font-family: 'Alex Brush';font-size: 80px;
+    font-family: 'Alex Brush';
+    font-size: 60px;
     color: #FFFFFF;
-    margin: 5px 0px 0px 31%;
+    margin-left: 150px;
+    margin-top: 15px;
 }
 
 .paintings_grid {
     margin-top: 40px;
-    width: 80%;
+    width: 760px;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -55,58 +58,58 @@ a {
 .left_two {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .left_two_a {
     content: url('./photo_img/20240722_095903.jpg');
-    height: 300px;
+    height: 200px;
     /* width: 100%; */
 }
 
 .left_two_b {
     content: url('./photo_img/20240228_175830\ \(1\).jpg');
-    height: 300px;
+    height: 200px;
     /* width: 100%; */
 }
 
 .left_three {
     content: url('./photo_img/20240520_215236.jpg');
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .left_four {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .left_four_a {
     content: url('./photo_img/20240426_212547.jpg');
-    height: 225px;
+    height: 150px;
 }
 
 .left_four_b {
     content: url('./photo_img/IMG_20210303_180408.jpg');
-    height: 225px;
+    height: 150px;
 }
 
 .left_four_c {
     content: url('./photo_img/10776974402644279457.jpg');
-    height: 225px;
+    height: 150px;
 }
 
 .left_five {
     content: url('./photo_img/IMG_20200620_193528.jpg');
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .left_six {
     content: url('./photo_img/20231223_134334.jpg');
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .right_grid {
@@ -122,41 +125,41 @@ a {
 .right_two {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 .right_two_a {
     content: url('./photo_img/20240721_094946.jpg');
-    height: 300px;
+    height: 200px;
 }
 
 .right_two_b {
     content: url('./photo_img/20240721_092459.jpg');
-    height: 300px;
+    height: 200px;
 }
 
 .right_three {
     content: url('./photo_img/IMG_20210902_132619.jpg');
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .right_four {
     content: url('./photo_img/20211225_115426.jpg');
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .right_five {
     content: url('./photo_img/20240809_203217\ \(1\).jpg');
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .right_six {
     content: url('./photo_img/IMG_20190630_130036.jpg');
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .footer {
@@ -164,106 +167,136 @@ a {
     margin-top: 50px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 860px) {
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
     .nav {
-        display: none;
+        font-size: 30px;
     }
 
     .logo {
         font-size: 50px;
         margin: 0%;
-        margin-top: 20px;
+        margin-left: 70px;
     }
 
     .navigation {
-        justify-content: center;
+        width: 500px;
     }
 
     .paintings_grid {
         margin-top: 0%;
-        width: 90%;
-    }
+        /* width: 90%; */
+        width: 500px;
+    }  
 
     .left_one {
         width: 100%;
     }
     
     .left_two {
+        margin-top: 17px;
+        height: 100%;
+        width: 100%;
         display: flex;
-        justify-content: space-between;
-        margin-top: 15px;
+        flex-direction: column;
     }
     
     .left_two_a {
-        height: 80px;
-        /* width: 100%; */
+        width: 100%;
+        height: 100%;
     }
     
     .left_two_b {
-        height: 80px;
-        /* width: 100%; */
+        width: 100%;
+        height: 100%;
+        margin-top: 17px;
     }
     
     .left_three {
-        margin-top: 19px;
+        margin-top: 17px;
     }
     
     .left_four {
-        margin-top: 20px;
+        margin-top: 17px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
     
     .left_four_a {
-        height: 65px;
+        width: 100%;
+        height: 100%;
+        display: none;
     }
     
     .left_four_b {
-        height: 65px;
+        width: 100%;
+        height: 100%;
     }
     
     .left_four_c {
-        height: 65px;
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+        display: none;
     }
     
     .left_five {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 17px;
     }
     
     .left_six {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 17px;
+    }
+
+    .right_one {
+        content: url('./photo_img/website\ theme\ logo\ -\ PHOTO\ mobile.png');
     }
 
     .right_two {
-        margin-top: 20px;
-        height: 80px;
+        margin-top: 28px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
     
     .right_two_a {
+        width: 100%;
         height: 100%;
     }
     
     .right_two_b {
+        width: 100%;
         height: 100%;
+        margin-top: 23px;
     }
 
     .right_three {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 23px;
     }
 
     .right_four {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 23px;
     }
 
     .right_five {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 23px;
     }
     
     .right_six {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 21px;
     }
 }
