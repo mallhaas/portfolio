@@ -190,7 +190,6 @@ a {
 
     .paintings_grid {
         margin-top: 0%;
-        /* width: 90%; */
         width: 500px;
     }  
 
@@ -259,6 +258,151 @@ a {
 
     .right_one {
         content: url('./photo_img/website\ theme\ logo\ -\ PHOTO\ mobile.png');
+    }
+
+    .right_two {
+        margin-top: 28px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .right_two_a {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .right_two_b {
+        width: 100%;
+        height: 100%;
+        margin-top: 23px;
+    }
+
+    .right_three {
+        width: 100%;
+        margin-top: 23px;
+    }
+
+    .right_four {
+        width: 100%;
+        margin-top: 23px;
+    }
+
+    .right_five {
+        width: 100%;
+        margin-top: 23px;
+    }
+    
+    .right_six {
+        width: 100%;
+        margin-top: 21px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .nav {
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .nav a {
+        font-size: 40px;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+    .logo a {
+        margin: -20px;
+    }
+
+    .navigation {
+        width: 70px;
+        height: 180px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paintings_grid {
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+    }  
+
+    .left_one {
+        width: 100%;
+        margin-top: 20px;
+
+    }
+    
+    .left_two {
+        margin-top: 17px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left_two_a {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .left_two_b {
+        width: 100%;
+        height: 100%;
+        margin-top: 17px;
+    }
+    
+    .left_three {
+        margin-top: 17px;
+    }
+    
+    .left_four {
+        margin-top: 17px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left_four_a {
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    
+    .left_four_b {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .left_four_c {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+        display: none;
+    }
+    
+    .left_five {
+        width: 100%;
+        margin-top: 17px;
+    }
+    
+    .left_six {
+        width: 100%;
+        margin-top: 17px;
+    }
+
+    .right_one {
+        display: none;
     }
 
     .right_two {
