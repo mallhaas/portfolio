@@ -9,7 +9,7 @@ a {
     color: white;
 }
 .navigation {
-    width: 97%;
+    width: 760px;
     height: 100px;
     display: flex;
 }
@@ -18,6 +18,7 @@ a {
     font-size: 38px;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 .nav a {
     margin: 0%;
@@ -28,9 +29,11 @@ a {
     color: #000000;
 }
 .logo {
-    font-family: 'Alex Brush';font-size: 80px;
+    font-family: 'Alex Brush';
+    font-size: 60px;
     color: #FFFFFF;
-    margin: 5px 0px 0px 31%;
+    margin-left: 150px;
+    margin-top: 15px;
 }
 
 .san_diago_text {
@@ -42,63 +45,60 @@ a {
 }
 
 .san_diego_finest_grid {
-    width: 75%;
+    width: 760px;
     height: 100%;
     margin-top: 60px;
     margin-bottom: 60px;
 }
 
 .san_diego_finest_grid_first {
-    height: 600px;
+    height: 440px;
     margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
 }
 
 .san_diego_finest_grid_first_a {
-    height: 600px;
-    width: 600px;
     content: url('./sandiego_img/1a.png');
+    height: 440px;
 }
 
 .san_diego_finest_grid_first_b {
-    height: 600px;
-    width: 450px;
+    height: 100%;
     content: url('./sandiego_img/1b.jpg');
 }
 
 .san_diego_finest_grid_second {
-    height: 300px;
+    height: 205px;
     margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
 }
 
 .san_diego_finest_grid_second_a {
-    height: 300px;
+    height: 100%;
     content: url('./sandiego_img/2a.png');
 }
 
 .san_diego_finest_grid_second_b {
-    height: 300px;
+    height: 100%;
     content: url('./sandiego_img/2b.png');
 }
 
 .san_diego_finest_grid_third {
-    height: 600px;
+    height: 440px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
 }
 
 .san_diego_finest_grid_third_a {
-    height: 600px;
-    width: 450px;
+    height: 100%;
     content: url('./sandiego_img/3a.png');
 }
 
 .san_diego_finest_grid_third_b {
-    height: 600px;
-    width: 600px;
+    height: 100%;
     content: url('./sandiego_img/3b.png');
 }
 
@@ -107,23 +107,27 @@ a {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 860px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
     .nav {
-        display: none;
+        font-size: 30px;
     }
 
     .logo {
         font-size: 50px;
         margin: 0%;
-        margin-top: 20px;
+        margin-left: 70px;
     }
 
     .navigation {
-        justify-content: center;
+        width: 500px;
     }
-
     .san_diago_text {
-        width: 80%;
+        width: 500px;
     }
 
     .san_diago_text h2{
@@ -135,57 +139,47 @@ a {
     }
 
     .san_diego_finest_grid {
-        width: 97%;
+        width: 500px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
     .san_diego_finest_grid_first {
-        height: 190px;
+        height: 290px;
         margin-bottom: 20px;
     }
     
     .san_diego_finest_grid_first_a {
         height: 100%;
-        width: fit-content;
     }
     
     .san_diego_finest_grid_first_b {
         height: 100%;
-        width: fit-content;
     }
 
     .san_diego_finest_grid_second {
-        height: 93px;
+        height: 136px;
         margin-bottom: 20px;
     }
 
     .san_diego_finest_grid_second_a {
         height: 100%;
-        width: fit-content;
     }
     
     .san_diego_finest_grid_second_b {
         height: 100%;
-        width: fit-content;
     }
     
     .san_diego_finest_grid_third {
-        height: 190px;
+        height: 290px;
         margin-bottom: 20px;
     }
     
     .san_diego_finest_grid_third_a {
         height: 100%;
-        width: fit-content;
     }
     
     .san_diego_finest_grid_third_b {
         height: 100%;
-        width: fit-content;
-    }
-
-    .footer {
-        display: none;
     }
 }
