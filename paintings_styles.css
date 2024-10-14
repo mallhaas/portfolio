@@ -162,9 +162,52 @@ a {
     .paintings_theme {       
         display: none;
     }
+}
 
-    .footer {
-        display: none;
-        margin: 0%;
+
+@media only screen and (max-width: 600px) {
+    
+    .nav {
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .nav a {
+        font-size: 40px;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+    .logo a {
+        margin: -20px;
+    }
+
+    .navigation {
+        width: 70px;
+        height: 180px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paintings_grid {
+        margin-top: 0%;
+        width: 70px;
+        align-items: center;
+    }
+
+    .up_grid {
+        margin-top: 20px;
+        width: 275px;
+    }
+
+    .low_grid {
+        width: 275px;
+        align-items: center;
     }
 }
