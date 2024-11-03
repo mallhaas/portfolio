@@ -36,7 +36,7 @@ a {
     margin-top: 15px;
 }
 
-.paintings_grid {
+.photo_grid {
     margin-top: 40px;
     width: 760px;
     height: 100%;
@@ -189,7 +189,7 @@ a {
         width: 500px;
     }
 
-    .paintings_grid {
+    .photo_grid {
         margin-top: 0%;
         width: 500px;
     }  
@@ -331,16 +331,20 @@ a {
         align-items: center;
     }
 
-    .paintings_grid {
+    .photo_grid {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 350px;
+        margin-top: 30px;
     }  
 
-
     .left_grid {
-        margin-top: 20px;
+        width: 350px;
+    }
+
+    .right_grid {
+        width: 350px;
     }
 
     .right_one {
