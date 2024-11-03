@@ -16,7 +16,7 @@ body, html {
 
 .content {
     width: 250px;
-    height: 150px;
+    height: 280px;
     font-family: 'League Gothic';
     background-color: rgba(179, 181, 181, 0.327);
     color: white;
@@ -27,6 +27,7 @@ body, html {
 .upper {
     height: 80%;
     display: flex;
+    font-size: 22px;
 }
 
 .phone {
