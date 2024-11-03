@@ -36,7 +36,6 @@ a {
     margin-top: 15px;
 }
 
-
 .smthi_grid {
     width: 760px;
     
@@ -78,6 +77,7 @@ margin-right: 40px;
     width: 100%;
     margin-bottom: 60px;
 }
+
 .san_diego_project:hover {
     content: url(smthi_img/san\ diago\ button\ black.png);
 }
@@ -91,6 +91,7 @@ margin-right: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
     
     .nav {
         font-size: 30px;
@@ -140,8 +141,50 @@ margin-right: 40px;
         height: 100%;
     }
 
-    .footer {
-        display: none;
-    }
+}
+
+@media only screen and (max-width: 600px) {
     
+    .nav {
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .nav a {
+        font-size: 40px;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+    .logo a {
+        margin: -20px;
+    }
+
+    .navigation {
+        width: 70px;
+        height: 180px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .smthi_grid {
+        margin-top: 30px;
+        width: 350px;
+    }
+
+    .smthi_upper {
+        align-items: center;
+    }
+
+    .san_diego_project {
+        margin-bottom: 30px;
+    }
+
+
 }

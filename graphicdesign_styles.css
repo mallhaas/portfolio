@@ -82,6 +82,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
     
     .nav {
         font-size: 30px;
@@ -112,4 +113,51 @@ a {
     .san_diago_text {
         width: 500px;
     }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .nav {
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .nav a {
+        font-size: 40px;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+    .logo a {
+        margin: -20px;
+    }
+
+    .navigation {
+        width: 70px;
+        height: 180px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .graphicdesign_grid {
+        width: 350px;
+        display: flex;
+        align-items: center;
+    }
+
+    .graphicdesign_theme {
+        display: none;
+    }
+
+    .graphicdesign_lower {
+        width: 280px;
+    }
+
+
 }

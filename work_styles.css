@@ -4,15 +4,18 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 a {
     text-decoration: none;
     color: white;
 }
+
 .navigation {
     width: 760px;
     height: 100px;
     display: flex;
 }
+
 .nav {
     font-family: 'League Gothic';
     font-size: 38px;
@@ -20,14 +23,17 @@ a {
     flex-direction: column;
     height: 100%;
 }
+
 .nav a {
     margin: 0%;
     color: #ffffff;
 }
+
 .nav a:hover {
     margin: 0%;
     color: #000000;
 }
+
 .logo {
     font-family: 'Alex Brush';
     font-size: 60px;
@@ -97,13 +103,19 @@ a {
     transform: scale(1.04);
 }
 
+.footer {
+    color: #ffffff;
+    margin-top: 20px;
+}
+
 
 @media only screen and (max-width: 860px) {
     body {
         display: flex;
         flex-direction: column;
         align-items: center;
-    
+    }
+
     .nav {
         font-size: 30px;
     }
@@ -123,7 +135,6 @@ a {
         height: 100%;
     }
     
-
     .main_options {
         width: 100%;
         height: 100%;
@@ -160,4 +171,41 @@ a {
         height: 100%;
         
     }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .nav {
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .nav a {
+        font-size: 40px;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+    .logo a {
+        margin: -20px;
+    }
+
+    .navigation {
+        width: 70px;
+        height: 180px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid {
+        width: 350px;
+        margin-top: 30px;
+    }
+
 }

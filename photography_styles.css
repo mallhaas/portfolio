@@ -173,6 +173,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
     
     .nav {
         font-size: 30px;
@@ -331,16 +332,17 @@ a {
     }
 
     .paintings_grid {
-        width: 150px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 350px;
     }  
+
 
     .left_grid {
         margin-top: 20px;
     }
-    
+
     .right_one {
         display: none;
     }

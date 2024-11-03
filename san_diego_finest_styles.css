@@ -47,13 +47,13 @@ a {
 .san_diego_finest_grid {
     width: 760px;
     height: 100%;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .san_diego_finest_grid_first {
     height: 440px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -70,7 +70,7 @@ a {
 
 .san_diego_finest_grid_second {
     height: 205px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -87,7 +87,7 @@ a {
 
 .san_diego_finest_grid_third {
     height: 440px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -112,6 +112,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
     
     .nav {
         font-size: 30px;
@@ -181,5 +182,71 @@ a {
     
     .san_diego_finest_grid_third_b {
         height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .nav {
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .nav a {
+        font-size: 40px;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+    .logo a {
+        margin: -20px;
+    }
+
+    .navigation {
+        width: 70px;
+        height: 180px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .san_diago_text {
+        width: 350px;
+    }
+
+    .san_diego_finest_grid {
+        width: 350px;
+    }
+
+    .san_diego_finest_grid_first {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .san_diego_finest_grid_first_a {
+        margin-bottom: 15px;
+    }
+
+    .san_diego_finest_grid_second {
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .san_diego_finest_grid_second_b {
+        margin-bottom: 15px;
+    }
+
+    .san_diego_finest_grid_third {
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .san_diego_finest_grid_third_b {
+        margin-bottom: 15px;
     }
 }
